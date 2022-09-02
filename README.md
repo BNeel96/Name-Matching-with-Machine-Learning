@@ -18,7 +18,9 @@
   - Out-of-scope use cases: This is solely for educational purpose for learning. Any use beyond an educational example is out-of-scope.
 - Describe the business value of your group's best model
   - The best model is used for screening the customer names against watchlists of known financial criminals, terrorists, and entities subject to sanctions violations (“bad actors”). If there is a match, the bank may choose to not execute the transaction or onboard the customer.
+
 **Training data**
+
 - State the source of training data
   - U.S. DEPARTMENT OF THE TREASURY Office of Foreign Assets Control - Sanctions Programs and Information https://www.treasury.gov/ofac/downloads/sdn.csv
 - State how training data was divided into training and validation data
@@ -64,6 +66,7 @@
   - 'pandas 1.4.2', 'jellyfish 0.9.0', 'matplotlib 3.5.2', 'scikit-learn 1.0.2', 'scipy 1.8.1', 'seaborn 0.11.2', ' numpy 1.22.4'
 - State the hyperparameters or other settings of your group's best remediated model
   - Cosine Similarity(cutoff:0.5) with Levenshtein Distance(cutoff1:15, cutoff2:2)
+
 **Quantitative analysis**
 
 - State the metrics used to evaluate your group's best remediated model
