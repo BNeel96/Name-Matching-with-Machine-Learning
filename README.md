@@ -28,7 +28,8 @@
 - Define the meaning of all training data columns
   - Data dictionary:
  
- |Name|Modeling Role|	Measurement Level|	Description|
+|Name|Modeling Role|	Measurement Level|	Description|
+-----|-------------|------------------|------------|
 **Test Name Variation**|	target|	string| name variation after transforming the orignal watchlist name|
 **Theme** |	imput |	string|	broad categorization of the test name variation|
 **Category**|input|	string|	type of transformation undergone by test name variation|
@@ -79,22 +80,22 @@
 - Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group's best remediated model.
   - Training:
    - Cosine Similarity with Levenshtein
-    <img width="330" alt="CL" src="https://user-images.githubusercontent.com/89561764/188243620-c422995d-e821-4524-8cd3-365f2a58b8e2.png">
-    |:--:|
-    | <b>Cutoff vs TP% and VOHs</b>|
+      <img width="330" alt="CL" src="https://user-images.githubusercontent.com/89561764/188243620-c422995d-e821-4524-8cd3-365f2a58b8e2.png">
+      |:--:|
+      | <b>Cutoff vs TP% and VOHs</b>|
    - Double Metaphone  with Levenshtein
-    <img width="234" alt="DoubleMetaphoneWithLeven" src="https://user-images.githubusercontent.com/89561764/188244136-77003191-4604-4646-b75d-df9941956a4d.png">
-    |:--:|
-    | <b>Cutoff vs TP% and VOHs</b>|
+      <img width="234" alt="DoubleMetaphoneWithLeven" src="https://user-images.githubusercontent.com/89561764/188244136-77003191-4604-4646-b75d-df9941956a4d.png">
+      |:--:|
+      | <b>Cutoff vs TP% and VOHs</b>|
    - Soundex with Levenshtein
-    <img width="198" alt="SoundexWithLevenshtein" src="https://user-images.githubusercontent.com/89561764/188243910-9ce93634-abdd-400c-b274-ab511281b9b3.png">
-    |:--:|
-    | <b>Cutoff vs TP% and VOHs</b>|   
+      <img width="198" alt="SoundexWithLevenshtein" src="https://user-images.githubusercontent.com/89561764/188243910-9ce93634-abdd-400c-b274-ab511281b9b3.png">
+      |:--:|
+      | <b>Cutoff vs TP% and VOHs</b>|   
   - Test:
    - Performance Metrics
-    <img width="1329" alt="Performance Metrics" src="https://user-images.githubusercontent.com/89561764/188244780-62265586-4049-4c9b-ab28-f97601f265ca.png">
-    |:--:|
-    | <b>TP% and VOHs per Model</b>|
+      <img width="1329" alt="Performance Metrics" src="https://user-images.githubusercontent.com/89561764/188244780-62265586-4049-4c9b-ab28-f97601f265ca.png">
+      |:--:|
+      | <b>TP% and VOHs per Model</b>|
     
 
 **Ethical considerations**
