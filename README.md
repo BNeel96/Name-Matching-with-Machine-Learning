@@ -1,4 +1,4 @@
-# Name-Matching-with-Machine-Learning-and-AI
+# Name-Matching-with-Machine-Learning
 
 **Basic Information**
 
