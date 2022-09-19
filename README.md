@@ -3,7 +3,7 @@
 **Basic Information**
 
 * **Person or organization developing model**: Neel Barge, Ziyad Maknojia, Basil Punnus, Youssef Ragab, Alexandra Kakadiaris, Josephene Yang, `nbarge96@gwu.edu`, 'zam@gwu.edu', 'basilpunnus@gwu.edu', 'yragab@gwu.edu', 'akakadiaris@gwu.edu', 'yangxiaoda@gwu.edu'
-* **Model date**: May, 2021
+* **Model date**: January, 2022 to May, 2022
 
 **Intended use**
 - Primary intended uses:
